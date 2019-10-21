@@ -1,0 +1,15 @@
+name: 'Setup Secure Shell (SSH)'
+description: 'Sets up Secure Shell (SSH), while also adding known hosts, private key and optional configuration file.'
+inputs:
+  ssh-config:
+    description: 'Configuration for Secure Shell.'
+    required: false
+  ssh-known-hosts:
+    description: 'Known Hosts for Secure Shell.'
+    required: true
+  ssh-private-key:
+    description: 'Private Key for Secure Shell.'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'

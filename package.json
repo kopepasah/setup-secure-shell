@@ -1,0 +1,29 @@
+{
+  "name": "setup-secure-shell",
+  "version": "0.1.0",
+  "description": "Set up Secure Shell (SSH) for GitHub Actions.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kopepasah/setup-secure-shell.git"
+  },
+  "keywords": [
+    "secure",
+    "shell",
+    "ssh",
+    "github",
+    "action"
+  ],
+  "author": "Justin Kopepasah <justin@kopepasah.com>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/kopepasah/setup-secure-shell/issues"
+  },
+  "homepage": "https://github.com/kopepasah/setup-secure-shell#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/exec": "^1.0.1",
+    "@actions/io": "^1.0.1"
+  }
+}
