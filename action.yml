@@ -1,7 +1,8 @@
 name: 'Setup Secure Shell (SSH)'
 description: 'Sets up Secure Shell (SSH), while also adding known hosts, private key and optional configuration file.'
-icon: terminal
-color: black
+branding:
+  icon: terminal
+  color: black
 inputs:
   ssh-config:
     description: 'Configuration for Secure Shell.'
